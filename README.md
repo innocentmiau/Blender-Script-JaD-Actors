@@ -29,5 +29,4 @@ For this to work you have to be a little organized and place the objects inside 
 > - Create a collection with the correct name, for example `crate` (For all the actors types you can use with this script check above)
 > - Place the object inside the collection, put it in the right location and rotation you want.
 > - If the object can contain things inside, like `crate` can, change the name for what you want, for example: `crate-steel-orbs3` and it will set the crate as steel, with 3 orbs inside.
-
-The file with the code for the script is sent below:
+> - For `plat-eco` you can set the final destination and speed by creating a new object outside of the plat-ecos collection and add to the name the text `-final` and then the speed u want it to be like `3` (Example name: `plat-eco-1` for the main actor and `plat-eco-final5` for the final location and speed of 5.
