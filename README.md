@@ -9,7 +9,7 @@ For this to work you have to be a little organized and place the objects inside 
 > `buzzer`,
 > `eco-blue`, `eco-yellow`, `eco-red`,
 > `ropebridge`,
-> `crate`, can contain several types by adding this texts to the **object name**:
+> - `crate`, can contain several types by adding this texts to the **object name**:
 > - `crate-wood` to set as wood.
 > - `crate-iron` to set as iron.
 > - `crate-steel` to set as steel.
