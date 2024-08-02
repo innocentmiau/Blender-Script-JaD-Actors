@@ -17,6 +17,9 @@ For this to work you have to be a little organized and place the objects inside 
 > - `crate-barrel` to set as barrel.
 > - `crate-darkeco` to set as darkeco.
 > `plat-eco`
+> `swingpole`
+> `orb-cache-top`
+> `ecovent`
 
 # Contents that can be put inside crates:
 > `eco_yellow`, `eco_red`, `eco_blue`, `eco_green`, `orbs`, `power_cell`, `green_pill`, `buzzer`.
@@ -30,3 +33,5 @@ For this to work you have to be a little organized and place the objects inside 
 > - Place the object inside the collection, put it in the right location and rotation you want.
 > - If the object can contain things inside, like `crate` can, change the name for what you want, for example: `crate-steel-orbs3` and it will set the crate as steel, with 3 orbs inside.
 > - For `plat-eco` you can set the final destination and speed by creating a new object outside of the plat-ecos collection and add to the name the text `-final` and then the speed u want it to be like `3` (Example name: `plat-eco-1` for the main actor and `plat-eco-final5` for the final location and speed of 5.
+> - For `orb-cache-top` you can set the orb count inside of them by typing `orbsX` on the name, where X is the number of orbs you want inside, by default it will be 10. (Object's name in blender) Example: `orbvent-orbs15` will set the orbvent to have 15 orbs.
+> - For `ecovent` you can set the eco vent type to whichever you want by changing the eco type on the object's name, by default it will be blue eco. Example: `yellowvent` will set as yellow vent.
