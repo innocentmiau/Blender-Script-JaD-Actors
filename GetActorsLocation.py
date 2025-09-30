@@ -89,6 +89,8 @@ def collect_object_locations():
         if collection_name in actors:
             collection = bpy.data.collections[collection_name]
             for obj in collection.objects:
+                if "-final" in obj.name:
+                    continue
                 location = transform_location([round(coord, 3) for coord in obj.location])
                 quat = transform_quat([round(coord, 3) for coord in obj.rotation_quaternion])
                 if collection_name == "swingpole":
